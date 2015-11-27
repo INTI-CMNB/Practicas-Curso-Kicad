@@ -1,0 +1,7 @@
+Crear los siguentes directorios a medida que sean necesarios:
+ej1: Para el Ejercicio 1.
+ej2: Para el Ejercicio 2.
+
+Los archivos necesarios para los ejercicios están bajo el
+directorio "Materiales".
+
