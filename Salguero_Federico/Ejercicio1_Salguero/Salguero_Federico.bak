@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:ej1
+LIBS:Nolasco_Santiago-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -8,7 +9,7 @@ Sheet 1 1
 Title "Ejercicio 1 - Curso KiCad"
 Date "2015-11-30"
 Rev "1.0"
-Comp "Aggo - Salguero Federico"
+Comp "IUA-Santiago Nolasco"
 Comment1 ""
 Comment2 ""
 Comment3 ""
