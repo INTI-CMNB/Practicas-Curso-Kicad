@@ -1,0 +1,46 @@
+Info: Reading netlist file "/home/santiago/KiCad.Projects/Nolasco_Santiago/Nolasco_Santiago.net".
+
+Info: Using references to match components and footprints.
+
+Info: Checking netlist component footprint "C1:/565C5CA3:ej1:C_Rect_L7_W3.5_P5".
+
+Adding new component "C1:/565C5CA3" footprint "ej1:C_Rect_L7_W3.5_P5".
+
+Changing component "C1:/565C5CA3" pin "1" net name from "" to "Net-(C1-Pad1)".
+
+Changing component "C1:/565C5CA3" pin "2" net name from "" to "Net-(C1-Pad2)".
+
+Info: Checking netlist component footprint "D1:/565C5F16:ej1:LED-3MM".
+
+Adding new component "D1:/565C5F16" footprint "ej1:LED-3MM".
+
+Changing component "D1:/565C5F16" pin "1" net name from "" to "Net-(C1-Pad1)".
+
+Changing component "D1:/565C5F16" pin "2" net name from "" to "Net-(C1-Pad2)".
+
+Info: Checking netlist component footprint "D2:/565C5C48:ej1:Diode_DO-35_SOD27_Horizontal_RM10".
+
+Adding new component "D2:/565C5C48" footprint "ej1:Diode_DO-35_SOD27_Horizontal_RM10".
+
+Changing component "D2:/565C5C48" pin "2" net name from "" to "Net-(D2-Pad2)".
+
+Changing component "D2:/565C5C48" pin "1" net name from "" to "Net-(D2-Pad1)".
+
+Info: Checking netlist component footprint "K1:/565C5D79:ej1:bornier3".
+
+Adding new component "K1:/565C5D79" footprint "ej1:bornier3".
+
+Changing component "K1:/565C5D79" pin "1" net name from "" to "Net-(C1-Pad2)".
+
+Changing component "K1:/565C5D79" pin "2" net name from "" to "Net-(K1-Pad2)".
+
+Changing component "K1:/565C5D79" pin "3" net name from "" to "Net-(D2-Pad1)".
+
+Info: Checking netlist component footprint "R1:/565C5CD2:ej1:R3-LARGE_PADS".
+
+Adding new component "R1:/565C5CD2" footprint "ej1:R3-LARGE_PADS".
+
+Changing component "R1:/565C5CD2" pin "1" net name from "" to "Net-(C1-Pad1)".
+
+Changing component "R1:/565C5CD2" pin "2" net name from "" to "Net-(D2-Pad2)".
+
