@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:/Users/Admin/Desktop/Curso-KiCad/Practicas-Curso-Kicad/Santo_Eduardo/Ejercicio2/Ejercicio2.sch</source>
-    <date>01/12/2015 17:00:07</date>
+    <date>01/12/2015 17:09:57</date>
     <tool>Eeschema 4.0.0-rc1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -47,12 +47,14 @@
   <components>
     <comp ref="XA1">
       <value>Conn_Poncho2P_2x_20x2</value>
+      <footprint>Ejercicio2:Conn_Poncho_Derecha</footprint>
       <libsource lib="ej2" part="Conn_Poncho2P_2x_20x2"/>
       <sheetpath names="/Conector y CAN/" tstamps="/565DDB6F/"/>
       <tstamp>565E0D3A</tstamp>
     </comp>
     <comp ref="U1">
       <value>AMIS42665TJAA1RG</value>
+      <footprint>Ejercicio2:SOIC-8</footprint>
       <fields>
         <field name="Digikey/Mouser">766-1006-1-ND</field>
       </fields>
@@ -62,42 +64,49 @@
     </comp>
     <comp ref="C1">
       <value>100nF</value>
+      <footprint>Ejercicio2:C_0603_HandSoldering</footprint>
       <libsource lib="ej2" part="C"/>
       <sheetpath names="/Conector y CAN/" tstamps="/565DDB6F/"/>
       <tstamp>565E1455</tstamp>
     </comp>
     <comp ref="R1">
       <value>60</value>
+      <footprint>Ejercicio2:R_1206_HandSoldering</footprint>
       <libsource lib="ej2" part="R"/>
       <sheetpath names="/Conector y CAN/" tstamps="/565DDB6F/"/>
       <tstamp>565E1965</tstamp>
     </comp>
     <comp ref="R2">
       <value>60</value>
+      <footprint>Ejercicio2:R_1206_HandSoldering</footprint>
       <libsource lib="ej2" part="R"/>
       <sheetpath names="/Conector y CAN/" tstamps="/565DDB6F/"/>
       <tstamp>565E1A50</tstamp>
     </comp>
     <comp ref="JP1">
       <value>CONN_3</value>
+      <footprint>Ejercicio2:CON_PALETA_3</footprint>
       <libsource lib="ej2" part="CONN_3"/>
       <sheetpath names="/Conector y CAN/" tstamps="/565DDB6F/"/>
       <tstamp>565E1E81</tstamp>
     </comp>
     <comp ref="C2">
       <value>100nF</value>
+      <footprint>Ejercicio2:C_0603_HandSoldering</footprint>
       <libsource lib="ej2" part="C"/>
       <sheetpath names="/RS232/" tstamps="/565DDB8C/"/>
       <tstamp>565DFECC</tstamp>
     </comp>
     <comp ref="C3">
       <value>100nF</value>
+      <footprint>Ejercicio2:C_0603_HandSoldering</footprint>
       <libsource lib="ej2" part="C"/>
       <sheetpath names="/RS232/" tstamps="/565DDB8C/"/>
       <tstamp>565DFFAD</tstamp>
     </comp>
     <comp ref="U2">
       <value>MAX232</value>
+      <footprint>Ejercicio2:SP3232ECN-SOIC16N</footprint>
       <fields>
         <field name="Digikey/Mouser">1016-1803-1-ND</field>
       </fields>
@@ -107,24 +116,28 @@
     </comp>
     <comp ref="J1">
       <value>DB9</value>
+      <footprint>Ejercicio2:DB9_F_TH</footprint>
       <libsource lib="ej2" part="DB9"/>
       <sheetpath names="/RS232/" tstamps="/565DDB8C/"/>
       <tstamp>565E74DB</tstamp>
     </comp>
     <comp ref="C5">
       <value>100nF</value>
+      <footprint>Ejercicio2:C_0603_HandSoldering</footprint>
       <libsource lib="ej2" part="C"/>
       <sheetpath names="/RS232/" tstamps="/565DDB8C/"/>
       <tstamp>565E8671</tstamp>
     </comp>
     <comp ref="C6">
       <value>100nF</value>
+      <footprint>Ejercicio2:C_0603_HandSoldering</footprint>
       <libsource lib="ej2" part="C"/>
       <sheetpath names="/RS232/" tstamps="/565DDB8C/"/>
       <tstamp>565E876E</tstamp>
     </comp>
     <comp ref="C4">
       <value>100nF</value>
+      <footprint>Ejercicio2:C_0603_HandSoldering</footprint>
       <libsource lib="ej2" part="C"/>
       <sheetpath names="/RS232/" tstamps="/565DDB8C/"/>
       <tstamp>565E8B4B</tstamp>
