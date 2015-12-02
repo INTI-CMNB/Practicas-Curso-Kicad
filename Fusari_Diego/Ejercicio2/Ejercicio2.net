@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:/Users/WIN 7/Practicas-Curso-Kicad/Fusari_Diego/Ejercicio2/Ejercicio2.sch")
-    (date "02/12/2015 10:15:45")
+    (date "02/12/2015 11:41:29")
     (tool "Eeschema 4.0.0-rc2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
