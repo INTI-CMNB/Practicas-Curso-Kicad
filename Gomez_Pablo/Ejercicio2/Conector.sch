@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:ej2
+LIBS:Ejercicio2-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -341,9 +342,9 @@ Text Label 10100 3400 0    60   ~ 0
 CAN_TX
 Text Label 10100 3550 0    60   ~ 0
 CAN_RX
-Text Label 7650 3250 0    60   ~ 0
+Text Label 8600 3100 0    60   ~ 0
 CAN_P
-Text Label 7650 3350 0    60   ~ 0
+Text Label 8600 3700 0    60   ~ 0
 CAN_N
 Connection ~ 10100 3100
 $EndSCHEMATC
