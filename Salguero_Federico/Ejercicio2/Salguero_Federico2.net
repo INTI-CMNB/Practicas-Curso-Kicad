@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/familia/Practicas-Curso-Kicad/Salguero_Federico/Ejercicio2/Salguero_Federico2.sch)
-    (date "mié 02 dic 2015 10:13:06 ART")
+    (date "mié 02 dic 2015 12:18:21 ART")
     (tool "Eeschema 0.201512011501+6337~38~ubuntu14.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
