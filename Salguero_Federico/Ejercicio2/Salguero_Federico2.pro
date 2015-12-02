@@ -1,4 +1,4 @@
-update=mar 01 dic 2015 14:29:25 ART
+update=mié 02 dic 2015 18:16:05 ART
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,10 +23,10 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=libs
 [eeschema/libraries]
 LibName1=libs/ej2
+[general]
+version=1

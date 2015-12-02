@@ -310,4 +310,8 @@ Text Label 9250 3950 0    60   ~ 0
 CAN_RX
 Wire Wire Line
 	8600 3950 9250 3950
+Text Label 6250 3950 0    60   ~ 0
+CAN_P
+Text Label 6350 4150 0    60   ~ 0
+CAN_N
 $EndSCHEMATC
