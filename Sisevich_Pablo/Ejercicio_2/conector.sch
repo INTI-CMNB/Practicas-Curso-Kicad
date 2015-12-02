@@ -294,9 +294,9 @@ Text Label 9600 3650 0    60   ~ 0
 CAN_RX
 Wire Wire Line
 	9400 3350 9400 4100
-Text Label 6750 3400 0    60   ~ 0
+Text Label 6850 3400 0    60   ~ 0
 CAN_P
-Text Label 6750 3500 0    60   ~ 0
+Text Label 6900 3500 0    60   ~ 0
 CAN_N
 NoConn ~ 3650 4350
 $Comp
