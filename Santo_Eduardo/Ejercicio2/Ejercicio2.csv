@@ -1,0 +1,35 @@
+Source:,C:/Users/Admin/Desktop/Curso-KiCad/Practicas-Curso-Kicad/Santo_Eduardo/Ejercicio2/Ejercicio2.sch
+Date:,01/12/2015 17:09:57
+Tool:,Eeschema 4.0.0-rc1-stable
+Generator:,C:/Users/Admin/Desktop/Curso-KiCad/Practicas-Curso-Kicad/Santo_Eduardo/Ejercicio2/tools/bom_csv_grouped_by_value.py
+Component Count:,13
+
+Individual Components:
+
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Digikey/Mouser
+,,C1,100nF,ej2:C,Ejercicio2:C_0603_HandSoldering,,
+,,C2,100nF,ej2:C,Ejercicio2:C_0603_HandSoldering,,
+,,C3,100nF,ej2:C,Ejercicio2:C_0603_HandSoldering,,
+,,C4,100nF,ej2:C,Ejercicio2:C_0603_HandSoldering,,
+,,C5,100nF,ej2:C,Ejercicio2:C_0603_HandSoldering,,
+,,C6,100nF,ej2:C,Ejercicio2:C_0603_HandSoldering,,
+,,J1,DB9,ej2:DB9,Ejercicio2:DB9_F_TH,,
+,,JP1,CONN_3,ej2:CONN_3,Ejercicio2:CON_PALETA_3,,
+,,R1,60,ej2:R,Ejercicio2:R_1206_HandSoldering,,
+,,R2,60,ej2:R,Ejercicio2:R_1206_HandSoldering,,
+,,U1,AMIS42665TJAA1RG,ej2:AMIS42665TJAA1RG,Ejercicio2:SOIC-8,,766-1006-1-ND
+,,U2,MAX232,ej2:MAX232,Ejercicio2:SP3232ECN-SOIC16N,,1016-1803-1-ND
+,,XA1,Conn_Poncho2P_2x_20x2,ej2:Conn_Poncho2P_2x_20x2,Ejercicio2:Conn_Poncho_Derecha,,
+
+
+
+Collated Components:
+
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Digikey/Mouser
+1,6,"C1, C2, C3, C4, C5, C6",100nF,ej2:C,Ejercicio2:C_0603_HandSoldering,,
+2,1,J1,DB9,ej2:DB9,Ejercicio2:DB9_F_TH,,
+3,1,JP1,CONN_3,ej2:CONN_3,Ejercicio2:CON_PALETA_3,,
+4,2,"R1, R2",60,ej2:R,Ejercicio2:R_1206_HandSoldering,,
+5,1,U1,AMIS42665TJAA1RG,ej2:AMIS42665TJAA1RG,Ejercicio2:SOIC-8,,766-1006-1-ND
+6,1,U2,MAX232,ej2:MAX232,Ejercicio2:SP3232ECN-SOIC16N,,1016-1803-1-ND
+7,1,XA1,Conn_Poncho2P_2x_20x2,ej2:Conn_Poncho2P_2x_20x2,Ejercicio2:Conn_Poncho_Derecha,,
