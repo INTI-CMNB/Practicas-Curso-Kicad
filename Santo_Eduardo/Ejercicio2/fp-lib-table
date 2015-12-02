@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name Ejercicio2)(type KiCad)(uri "$(KIPRJMOD)\\Ejercicio2.pretty")(options "")(descr ""))
+  (lib (name TO_SOT_Packages_SMD)(type Github)(uri "$(KIGITHUB)/TO_SOT_Packages_SMD.pretty")(options "")(descr ""))
+  (lib (name Transistors_OldSowjetAera)(type Github)(uri "$(KIGITHUB)/Transistors_OldSowjetAera.pretty")(options "")(descr ""))
 )
