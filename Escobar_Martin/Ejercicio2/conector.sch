@@ -312,4 +312,8 @@ Text HLabel 1700 2350 0    60   Output ~ 0
 RXD
 Text HLabel 1700 2750 0    60   Input ~ 0
 RTS
+Text Label 6250 2050 0    60   ~ 0
+CAN_P
+Text Label 6250 2150 0    60   ~ 0
+CAN_N
 $EndSCHEMATC
