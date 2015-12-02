@@ -1,0 +1,35 @@
+Source:,/home/familia/Practicas-Curso-Kicad/Salguero_Federico/Ejercicio2/Salguero_Federico2.sch
+Date:,mié 02 dic 2015 10:13:27 ART
+Tool:,Eeschema 0.201512011501+6337~38~ubuntu14.04.1-stable
+Generator:,/home/familia/Practicas-Curso-Kicad/Salguero_Federico/Ejercicio2/tools/bom_csv_grouped_by_value.py
+Component Count:,13
+
+Individual Components:
+
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,DIGIKEY/MOUSER
+,,C1,C,ej2:C,ej2:C_1206_HandSoldering,,
+,,C2,C,ej2:C,ej2:C_1206_HandSoldering,,
+,,C3,C,ej2:C,ej2:C_1206_HandSoldering,,
+,,C4,C,ej2:C,ej2:C_1206_HandSoldering,,
+,,C5,C,ej2:C,ej2:C_1206_HandSoldering,,
+,,C6,C,ej2:C,ej2:C_1206_HandSoldering,,
+,,J1,DB9,ej2:DB9,ej2:DB9_F_TH,,
+,,JP1,CONN_3,ej2:CONN_3,ej2:CON_PALETA_3,,
+,,R1,R,ej2:R,ej2:R_1206_HandSoldering,,
+,,R2,R,ej2:R,ej2:R_1206_HandSoldering,,
+,,U1,AMIS42665TJAA1RG,ej2:AMIS42665TJAA1RG,ej2:SOIC-8,,
+,,U2,sp3232,ej2:sp3232,ej2:SP3232ECN-SOIC16N,,12344556
+,,XA1,Conn_Poncho2P_2x_20x2,ej2:Conn_Poncho2P_2x_20x2,ej2:Conn_Poncho_Derecha,,
+
+
+
+Collated Components:
+
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,DIGIKEY/MOUSER
+1,6,"C1, C2, C3, C4, C5, C6",C,ej2:C,ej2:C_1206_HandSoldering,,
+2,1,J1,DB9,ej2:DB9,ej2:DB9_F_TH,,
+3,1,JP1,CONN_3,ej2:CONN_3,ej2:CON_PALETA_3,,
+4,2,"R1, R2",R,ej2:R,ej2:R_1206_HandSoldering,,
+5,1,U1,AMIS42665TJAA1RG,ej2:AMIS42665TJAA1RG,ej2:SOIC-8,,
+6,1,U2,sp3232,ej2:sp3232,ej2:SP3232ECN-SOIC16N,,12344556
+7,1,XA1,Conn_Poncho2P_2x_20x2,ej2:Conn_Poncho2P_2x_20x2,ej2:Conn_Poncho_Derecha,,
