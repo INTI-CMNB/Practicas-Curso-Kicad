@@ -1,0 +1,36 @@
+Source:,F:/Google Drive/CursoKiCAD/Practicas-Curso-Kicad/Gomez_Pablo/Ejercicio2/Ejercicio2.sch
+Date:,02/12/2015 10:03:05
+Tool:,Eeschema 4.0.0-rc1-stable
+Generator:,F:/Google Drive/CursoKiCAD/Practicas-Curso-Kicad/Materiales/ej2.tools/bom_csv_grouped_by_value.py
+Component Count:,13
+
+Individual Components:
+
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Digikey/Mouser
+,,C1,100nF,ej2:C,ej2:C_1206_Handsoldering,,
+,,C2,100nF,ej2:C,ej2:C_1206_Handsoldering,,
+,,C3,100nF,ej2:C,ej2:C_1206_Handsoldering,,
+,,C4,100nF,ej2:C,ej2:C_1206_Handsoldering,,
+,,C5,100nF,ej2:C,ej2:C_1206_Handsoldering,,
+,,C6,100 nF,ej2:C,ej2:C_1206_Handsoldering,,
+,,J1,DB9,ej2:DB9,ej2:DB9_F_TH,,
+,,JP1,CAN,ej2:CONN_3,ej2:CON_PALETA_3,,
+,,R1,60,ej2:R,ej2:R_1206_HandSoldering,,
+,,R2,60,ej2:R,ej2:R_1206_HandSoldering,,
+,,U1,SP3232ECN,ej2:SP3232ECN,ej2:SP3232ECN-SOIC16N,,1016-1803-1-ND
+,,U2,AMIS42665TJAA1RG,ej2:AMIS42665TJAA1RG,ej2:SOIC-8,,766-1006-1-ND
+,,XA1,Conn_Poncho2P_2x_20x2,ej2:Conn_Poncho2P_2x_20x2,ej2:Conn_Poncho_Derecha,,
+
+
+
+Collated Components:
+
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Digikey/Mouser
+1,5,"C1, C2, C3, C4, C5",100nF,ej2:C,ej2:C_1206_Handsoldering,,
+2,1,C6,100 nF,ej2:C,ej2:C_1206_Handsoldering,,
+3,1,J1,DB9,ej2:DB9,ej2:DB9_F_TH,,
+4,1,JP1,CAN,ej2:CONN_3,ej2:CON_PALETA_3,,
+5,2,"R1, R2",60,ej2:R,ej2:R_1206_HandSoldering,,
+6,1,U1,SP3232ECN,ej2:SP3232ECN,ej2:SP3232ECN-SOIC16N,,1016-1803-1-ND
+7,1,U2,AMIS42665TJAA1RG,ej2:AMIS42665TJAA1RG,ej2:SOIC-8,,766-1006-1-ND
+8,1,XA1,Conn_Poncho2P_2x_20x2,ej2:Conn_Poncho2P_2x_20x2,ej2:Conn_Poncho_Derecha,,
