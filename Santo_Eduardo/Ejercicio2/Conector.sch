@@ -308,9 +308,9 @@ Wire Wire Line
 Wire Wire Line
 	8950 4150 9075 4150
 Text Label 6550 4050 0    60   ~ 0
-CAN_H
+CAN_P
 Text Label 6550 4150 0    60   ~ 0
-CAN_L
+CAN_N
 Wire Wire Line
 	6400 4050 6950 4050
 Wire Wire Line
