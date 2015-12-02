@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/christian/Practicas-Curso-Kicad/Mista_Christian/ejercicio2/ejercicio2.sch)
-    (date "12/1/2015 6:20:52 PM")
+    (date "12/2/2015 11:41:50 AM")
     (tool "Eeschema 4.0.0-rc1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
