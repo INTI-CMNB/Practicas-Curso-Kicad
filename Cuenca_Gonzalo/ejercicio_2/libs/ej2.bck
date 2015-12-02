@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP SP3232_V2
+D TTL RS232 converter
+K RS232 
+$ENDCMP
+#
 #End Doc Library
