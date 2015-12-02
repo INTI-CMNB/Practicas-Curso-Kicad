@@ -1,4 +1,4 @@
-update=01/12/2015 14:27:29
+update=02/12/2015 14:46:59
 version=1
 last_client=kicad
 [pcbnew]
@@ -30,3 +30,4 @@ version=1
 LibDir=libs
 [eeschema/libraries]
 LibName1=libs/ej2
+LibName2=libs/sp3232ecn_mp
