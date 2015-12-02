@@ -302,4 +302,8 @@ Text Label 8800 3150 0    60   ~ 0
 CAN_RX
 Text Label 8800 3000 0    60   ~ 0
 CAN_TX
+Text Label 6100 2900 0    60   ~ 0
+CAN_P
+Text Label 6100 3000 0    60   ~ 0
+CAN_N
 $EndSCHEMATC
