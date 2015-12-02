@@ -301,4 +301,8 @@ Wire Wire Line
 	3700 5150 2750 5150
 Wire Wire Line
 	3700 5250 2750 5250
+Text Label 6900 4400 0    60   ~ 0
+CAN_P
+Text Label 6900 4500 0    60   ~ 0
+CAN_N
 $EndSCHEMATC

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/santiago/KiCad.Projects/Practicas-Curso-Kicad/Nolasco_Santiago/ej2/ej2.sch)
-    (date "mar 01 dic 2015 18:08:08 ART")
+    (date "mié 02 dic 2015 11:41:18 ART")
     (tool "Eeschema 0.201511251016+6329~38~ubuntu14.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -16,10 +16,10 @@
         (comment (number 4) (value ""))))
     (sheet (number 2) (name "/Conector y Can/") (tstamps /565DDB9F/)
       (title_block
-        (title)
-        (company)
-        (rev)
-        (date)
+        (title "Ejercicio2 - Santiago Nolasco")
+        (company "IUA - KiCad")
+        (rev 1.0)
+        (date 2015-12-01)
         (source ConectoryCan.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
@@ -27,10 +27,10 @@
         (comment (number 4) (value ""))))
     (sheet (number 3) (name /RS-232/) (tstamps /565DDBCE/)
       (title_block
-        (title)
-        (company)
-        (rev)
-        (date)
+        (title "Ejercicio2 - Santiago Nolasco")
+        (company "IUA - KiCad")
+        (rev 1.0)
+        (date 2015-12-01)
         (source RS232.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
