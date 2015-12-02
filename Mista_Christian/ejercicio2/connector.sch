@@ -342,4 +342,8 @@ Wire Wire Line
 	9100 3550 9350 3550
 Wire Wire Line
 	9100 3400 9350 3400
+Text Label 7100 3250 2    60   ~ 0
+CAN_P
+Text Label 7200 3650 2    60   ~ 0
+CAN_N
 $EndSCHEMATC
