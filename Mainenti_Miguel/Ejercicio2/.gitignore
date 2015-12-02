@@ -1,4 +1,4 @@
 *.bak
 *.kicad_pcb-bak
 _autosave-*.kicad_pcb
-Ej2.xml
+*.xml
