@@ -3,7 +3,7 @@
   (general
     (links 44)
     (no_connects 0)
-    (area 120.475699 75.036699 167.334001 137.0941)
+    (area 126.543999 75.362999 167.334001 136.473001)
     (thickness 1.6)
     (drawings 6)
     (tracks 242)
@@ -212,9 +212,9 @@
     (pad 9 thru_hole circle (at 4.1529 -1.4224 90) (size 1.651 1.651) (drill 1.016) (layers *.Cu *.Mask))
     (pad 10 thru_hole circle (at -12.4968 0 90) (size 4.064 4.064) (drill 3.4) (layers *.Cu *.Mask))
     (pad 11 thru_hole circle (at 12.4968 0 90) (size 4.064 4.064) (drill 3.4) (layers *.Cu *.Mask))
-    (model ${KIPRJMOD}/ej2.3dshapes/db_9f.wrl
-      (at (xyz 0 0.31 0))
-      (scale (xyz 1 1.1 1))
+    (model ${KIPRJMOD}/Ejercicio2.3dshapes/db_9f.wrl
+      (at (xyz 0 0.28 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
     )
   )
@@ -239,7 +239,7 @@
       (net 15 "/Conector y CAN/CAN_L"))
     (pad 3 thru_hole circle (at 2.54 0 90) (size 1.778 1.778) (drill 1) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/ej2.3dshapes/CON_PALETA_3.wrl
+    (model ${KIPRJMOD}/Ejercicio2.3dshapes/CON_PALETA_3.wrl
       (at (xyz 0 0.012 0))
       (scale (xyz 0.395 0.395 0.395))
       (rotate (xyz 0 0 180))
@@ -268,7 +268,7 @@
       (net 14 "/Conector y CAN/CAN_H"))
     (pad 2 smd rect (at 2 0 90) (size 2 1.7) (layers B.Cu B.Paste B.Mask)
       (net 16 "Net-(R1-Pad2)"))
-    (model Resistors_SMD.3dshapes/R_1206_HandSoldering.wrl
+    (model ${KIPRJMOD}/Ejercicio2.3dshapes/R_1206_HandSoldering.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -297,7 +297,7 @@
       (net 16 "Net-(R1-Pad2)"))
     (pad 2 smd rect (at 2 0 270) (size 2 1.7) (layers B.Cu B.Paste B.Mask)
       (net 15 "/Conector y CAN/CAN_L"))
-    (model Resistors_SMD.3dshapes/R_1206_HandSoldering.wrl
+    (model ${KIPRJMOD}/Ejercicio2.3dshapes/R_1206_HandSoldering.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -338,7 +338,7 @@
       (net 14 "/Conector y CAN/CAN_H"))
     (pad 8 smd rect (at 2.7 -1.905 90) (size 0.6 1.52) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/ej2.3dshapes/so-8.wrl
+    (model ${KIPRJMOD}/Ejercicio2.3dshapes/so-8.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -397,7 +397,7 @@
       (net 1 GND))
     (pad 16 smd rect (at -4.445 -2.59842 270) (size 0.59944 2.19964) (layers F.Cu F.Paste F.Mask)
       (net 7 +3.3V))
-    (model ${KIPRJMOD}/ej2.3dshapes/so-16.wrl
+    (model ${KIPRJMOD}/Ejercicio2.3dshapes/so-16.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -599,7 +599,7 @@
       (net 1 GND))
     (pad 30 thru_hole oval (at 2.54 35.56 270) (size 1.524 2) (drill 1.016) (layers *.Cu *.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/ej2.3dshapes/pin_strip_20x2.wrl
+    (model ${KIPRJMOD}/Ejercicio2.3dshapes/pin_strip_20x2.wrl
       (at (xyz 0.05 -0.95 -0.063))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 0 90))
@@ -625,6 +625,11 @@
       (net 1 GND))
     (pad 2 smd rect (at 2 0) (size 2 1.6) (layers F.Cu F.Paste F.Mask)
       (net 2 +5V))
+    (model ${KIPRJMOD}/Ejercicio2.3dshapes/C_1206_HandSoldering.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Ejercicio2:1206 (layer F.Cu) (tedit 565EF264) (tstamp 565E0ACF)
@@ -646,6 +651,11 @@
       (net 3 "Net-(C2-Pad1)"))
     (pad 2 smd rect (at 2 0 270) (size 2 1.6) (layers F.Cu F.Paste F.Mask)
       (net 4 "Net-(C2-Pad2)"))
+    (model ${KIPRJMOD}/Ejercicio2.3dshapes/C_1206_HandSoldering.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Ejercicio2:1206 (layer F.Cu) (tedit 565EF25F) (tstamp 565E0ADA)
@@ -667,6 +677,11 @@
       (net 5 "Net-(C3-Pad1)"))
     (pad 2 smd rect (at 2 0 270) (size 2 1.6) (layers F.Cu F.Paste F.Mask)
       (net 6 "Net-(C3-Pad2)"))
+    (model ${KIPRJMOD}/Ejercicio2.3dshapes/C_1206_HandSoldering.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Ejercicio2:1206 (layer F.Cu) (tedit 565EF269) (tstamp 565E0AE5)
@@ -688,6 +703,11 @@
       (net 7 +3.3V))
     (pad 2 smd rect (at 2 0 180) (size 2 1.6) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
+    (model ${KIPRJMOD}/Ejercicio2.3dshapes/C_1206_HandSoldering.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Ejercicio2:1206 (layer F.Cu) (tedit 565EF272) (tstamp 565E0AF0)
@@ -709,6 +729,11 @@
       (net 8 "Net-(C5-Pad1)"))
     (pad 2 smd rect (at 2 0) (size 2 1.6) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
+    (model ${KIPRJMOD}/Ejercicio2.3dshapes/C_1206_HandSoldering.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Ejercicio2:1206 (layer F.Cu) (tedit 565EF255) (tstamp 565E0AFB)
@@ -730,11 +755,16 @@
       (net 9 "Net-(C6-Pad1)"))
     (pad 2 smd rect (at 2 0) (size 2 1.6) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
+    (model ${KIPRJMOD}/Ejercicio2.3dshapes/C_1206_HandSoldering.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
-  (module Ejercicio2:Logo_Poncho (layer F.Cu) (tedit 560DAFF4) (tstamp 565E0C18)
+  (module Ejercicio2:Logo_Poncho (layer F.Cu) (tedit 565F035E) (tstamp 565E0C18)
     (at 147.066 128.0795)
-    (fp_text reference G*** (at 0.127 5.588) (layer F.SilkS) hide
+    (fp_text reference G102 (at 0.127 5.588) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
     )
     (fp_text value LOGO (at 0.762 7.493) (layer F.SilkS) hide
