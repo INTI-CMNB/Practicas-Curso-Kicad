@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source C:\Utilitarios\cygwin64\home\Gon\Practicas-Curso-Kicad\Cuenca_Gonzalo\ejercicio_2\Ej2.sch)
-    (date "01/12/2015 18:40:52")
+    (source C:/Utilitarios/cygwin64/home/Gon/Practicas-Curso-Kicad/Cuenca_Gonzalo/ejercicio_2/Ej2.sch)
+    (date "02/12/2015 11:42:42")
     (tool "Eeschema 4.0.0-rc1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -120,6 +120,28 @@
       (sheetpath (names /RS-232/) (tstamps /565DDBC1/))
       (tstamp 565DECDB)))
   (libparts
+    (libpart (lib ej2) (part SP3232_V2)
+      (description "TTL RS232 converter")
+      (fields
+        (field (name Reference) U)
+        (field (name Value) SP3232_V2))
+      (pins
+        (pin (num 1) (name C1+) (type input))
+        (pin (num 2) (name V+) (type power_out))
+        (pin (num 3) (name C1-) (type input))
+        (pin (num 4) (name C2+) (type input))
+        (pin (num 5) (name C2-) (type input))
+        (pin (num 6) (name V-) (type power_out))
+        (pin (num 7) (name T2OUT) (type output))
+        (pin (num 8) (name R2IN) (type input))
+        (pin (num 9) (name R2OUT) (type output))
+        (pin (num 10) (name T2IN) (type input))
+        (pin (num 11) (name T1IN) (type input))
+        (pin (num 12) (name R1OUT) (type output))
+        (pin (num 13) (name R1IN) (type input))
+        (pin (num 14) (name T1OUT) (type output))
+        (pin (num 15) (name GND) (type power_in))
+        (pin (num 16) (name VCC) (type power_in))))
     (libpart (lib ej2) (part AMIS42665TJAA1RG)
       (fields
         (field (name Reference) U)
@@ -133,13 +155,6 @@
         (pin (num 6) (name CANL) (type input))
         (pin (num 7) (name CANH) (type input))
         (pin (num 8) (name STB) (type input))))
-    (libpart (lib ej2) (part C)
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
     (libpart (lib ej2) (part CONN_3)
       (fields
         (field (name Reference) JP)
@@ -148,6 +163,19 @@
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))
         (pin (num 3) (name ~) (type passive))))
+    (libpart (lib ej2) (part R)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib ej2) (part Conn_Poncho2P_2x_20x2)
       (fields
         (field (name Reference) XA)
@@ -233,6 +261,13 @@
         (pin (num 78) (name GPIO7) (type passive))
         (pin (num 79) (name GND) (type passive))
         (pin (num 80) (name GPIO8) (type passive))))
+    (libpart (lib ej2) (part C)
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib ej2) (part DB9)
       (footprints
         (fp DB9*))
@@ -248,42 +283,7 @@
         (pin (num 6) (name P6) (type passive))
         (pin (num 7) (name P7) (type passive))
         (pin (num 8) (name P8) (type passive))
-        (pin (num 9) (name P9) (type passive))))
-    (libpart (lib ej2) (part R)
-      (footprints
-        (fp R?)
-        (fp SM0603)
-        (fp SM0805)
-        (fp R?-*)
-        (fp SM1206))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) R))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib ej2) (part SP3232_V2)
-      (description "TTL RS232 converter")
-      (fields
-        (field (name Reference) U)
-        (field (name Value) SP3232_V2))
-      (pins
-        (pin (num 1) (name C1+) (type input))
-        (pin (num 2) (name V+) (type power_out))
-        (pin (num 3) (name C1-) (type input))
-        (pin (num 4) (name C2+) (type input))
-        (pin (num 5) (name C2-) (type input))
-        (pin (num 6) (name V-) (type power_out))
-        (pin (num 7) (name T2OUT) (type output))
-        (pin (num 8) (name R2IN) (type input))
-        (pin (num 9) (name R2OUT) (type output))
-        (pin (num 10) (name T2IN) (type input))
-        (pin (num 11) (name T1IN) (type input))
-        (pin (num 12) (name R1OUT) (type output))
-        (pin (num 13) (name R1IN) (type input))
-        (pin (num 14) (name T1OUT) (type output))
-        (pin (num 15) (name GND) (type power_in))
-        (pin (num 16) (name VCC) (type power_in)))))
+        (pin (num 9) (name P9) (type passive)))))
   (libraries
     (library (logical ej2)
       (uri C:\Utilitarios\cygwin64\home\Gon\Practicas-Curso-Kicad\Cuenca_Gonzalo\ejercicio_2\libs\ej2.lib)))
